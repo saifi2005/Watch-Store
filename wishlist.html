@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Wishlist — HAIDERI'S</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pages.css">
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <div class="topbar">
+
+        <div class="container topbar-inner">
+
+            <p>Free shipping on orders over $150</p>
+
+            <p>
+                Authentic Watches • Secure Checkout • 2 Year Warranty
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+            <span>CHRONO</span>VA
+        </a>
+
+
+        <nav class="main-nav" id="mainNav">
+
+            <a href="index.html">Home</a>
+
+            <a href="products.html">Shop</a>
+
+            <div class="nav-dropdown">
+
+                <a href="products.html">
+                    Categories ⌄
+                </a>
+
+                <div class="dropdown-menu">
+
+                    <a href="products.html?category=Men">Men's Watches</a>
+
+                    <a href="products.html?category=Women">Women's Watches</a>
+
+                    <a href="products.html?category=Luxury">Luxury Watches</a>
+
+                    <a href="products.html?category=Automatic">Automatic Watches</a>
+
+                    <a href="products.html?category=Chronograph">Chronographs</a>
+
+                    <a href="products.html?category=Sports">Sports Watches</a>
+
+                </div>
+
+            </div>
+
+            <a href="about.html">About</a>
+
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+
+        <div class="nav-actions">
+
+            <button class="icon-btn search-toggle">
+                ⌕
+            </button>
+
+            <a
+                href="wishlist.html"
+                class="icon-btn nav-count"
+            >
+                ♡
+                <small id="wishlistCount">0</small>
+            </a>
+
+            <a
+                href="cart.html"
+                class="icon-btn nav-count"
+            >
+                🛒
+                <small id="cartCount">0</small>
+            </a>
+
+            <a href="login.html" class="account-link">
+                Account
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+            >
+                ☰
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="search-panel" id="searchPanel">
+
+        <div class="container search-inner">
+
+            <div class="search-box">
+
+                <span>⌕</span>
+
+                <input
+                    id="globalSearch"
+                    placeholder="Search watches..."
+                >
+
+                <button id="closeSearch">×</button>
+
+            </div>
+
+            <div
+                id="searchSuggestions"
+                class="search-suggestions"
+            ></div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <span class="eyebrow">
+            SAVED TIMEPIECES
+        </span>
+
+        <h1>
+            My Wishlist
+        </h1>
+
+    </div>
+
+</section>
+
+
+
+<section class="wishlist-section">
+
+    <div class="container">
+
+        <div id="wishlistContainer"></div>
+
+    </div>
+
+</section>
+
+
+
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-brand">
+
+            <a href="index.html" class="logo footer-logo">
+                <span>CHRONO</span>VA
+            </a>
+
+            <p>
+                Timeless watches crafted for modern lives.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Shop</h4>
+
+            <a href="products.html">All Watches</a>
+
+            <a href="products.html?category=Men">
+                Men's
+            </a>
+
+            <a href="products.html?category=Women">
+                Women's
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Company</h4>
+
+            <a href="about.html">About</a>
+
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Customer Care</h4>
+
+            <a href="#">Shipping</a>
+
+            <a href="#">Returns</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        <p>
+            © 2026 HAIDERI'S. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<div class="toast" id="toast">
+
+    <span class="toast-icon">✓</span>
+
+    <span id="toastMessage">
+        Added to cart
+    </span>
+
+</div>
+
+
+
+<script src="js/products.js"></script>
+<script src="js/app.js"></script>
+<script src="js/pages.js"></script>
+
+</body>
+
+</html>
